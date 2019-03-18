@@ -1,0 +1,45 @@
+td {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  margin: 0;
+}
+td:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.month-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.month-btn {
+  margin: 0 5px;
+}
+.week {
+  border: 0;
+}
+.week:hover {
+  background-color: transparent;
+  color: black;
+  cursor: default;
+}
+.month {
+  width: 150px;
+  text-align: center;
+}
+.today {
+  background-color: red;
+}
